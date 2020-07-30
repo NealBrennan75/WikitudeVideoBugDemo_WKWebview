@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApplicationProperties</key>
+	<dict>
+		<key>ApplicationPath</key>
+		<string>Applications/Cordova Examples.app</string>
+		<key>CFBundleIdentifier</key>
+		<string>com.GITDemo.WKWebViewIssue</string>
+		<key>CFBundleShortVersionString</key>
+		<string>1.0.0</string>
+		<key>CFBundleVersion</key>
+		<string>1.0.0</string>
+		<key>SigningIdentity</key>
+		<string>Apple Development: neal brennan (25Y44S4943)</string>
+		<key>Team</key>
+		<string>G243N4T22D</string>
+	</dict>
+	<key>ArchiveVersion</key>
+	<integer>2</integer>
+	<key>CreationDate</key>
+	<date>2020-07-30T21:15:13Z</date>
+	<key>Name</key>
+	<string>Cordova Examples</string>
+	<key>SchemeName</key>
+	<string>Cordova Examples</string>
+</dict>
+</plist>
