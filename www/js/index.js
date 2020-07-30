@@ -208,8 +208,12 @@ var app = {
                 "Build version: " + sdkVersion
             );
         });
-    }
+    },
     // --- End Wikitude Plugin ---
+
+    testWindowOpen: function() {
+        let newWindow = window.open('https://cnn.com', "_self");
+    }
 };
 
 app.initialize();

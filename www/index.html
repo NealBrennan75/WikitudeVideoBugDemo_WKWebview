@@ -51,7 +51,13 @@
 				<ul data-role="listview">
 					<li><a href="javascript:app.loadExampleARchitectWorld(getSamplePath(0, 0));">1.1 Image on Target</a></li>
 				</ul>
+
+				<ul data-role="listview">
+					<li><a href="javascript:app.testWindowOpen();">Simple WKWebview 'window.open()'</a></li>
+				</ul>
 			</div>
+
+			<br/><br/>
 
 			<div onclick="startVideo()" class="video-play-button"><img src="https://png.pngtree.com/png-vector/20190420/ourmid/pngtree-vector-play-icon-png-image_966644.jpg" style="width: 50px; height: 50px;" /> Press here to test video player</div>
             <div id="fileExplorer"></div>
@@ -62,6 +68,17 @@
             		<li>1. Play video (button above)</li>
             		<li>2. Open Wikitude Viewer ('Image On Target' above) </li>
             		<li>3. Return to main app and try video again </li>
+            	</ul>
+            </div>
+
+            <div class="instructions">
+            	<h3>To See that it isn't simply a WKWebviewer Issue:</h3>
+            	<ul>
+            		<li>1. Close/Restart App</li>
+            		<li>2. Play video (button above)</li>
+            		<li>3. Tap 'Simple WKWebview' Above</li>
+            		<li>3. Return to main app (back button)</li>
+            		<li>4. Try video again</li>
             	</ul>
             </div>
 
